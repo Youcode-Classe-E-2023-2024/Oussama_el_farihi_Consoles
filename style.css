@@ -264,3 +264,42 @@
 .logof img {
     width: 90%;
 }
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: px 0;
+    background-color: #ffffff;
+}
+
+.news-title {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.news-1 {
+    width: 600px;
+    background-color: #A00531;
+    display: flex;
+    align-items: center;
+    margin: 45px 0;
+}
+
+.news-content1 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.news-1 img {
+    max-width: 100%;
+}
+
+.news-content1 h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
