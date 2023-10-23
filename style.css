@@ -181,6 +181,10 @@
     max-width: 100%;
   }
 }
+
+.card2 a {
+    text-decoration: none;
+}
 /* end of media query */
 
 .s1 {
