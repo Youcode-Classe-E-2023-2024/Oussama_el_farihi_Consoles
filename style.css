@@ -183,7 +183,7 @@
 }
 
 .card2 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 /* end of media query */
 
@@ -232,7 +232,6 @@
 }
 
 /*---------- end of index page ------------*/
-
 
 /*---------- start of news page ------------*/
 
@@ -322,14 +321,14 @@
 
 /*---------- start of signin page ------------*/
 .l {
-    padding: 80px;
+  padding: 80px;
 }
 
 .l h1 {
-    font-size: 70px;
-    font-weight: 400;
-    text-align: center;
-  }
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+}
 
 .signin {
   display: flex;
@@ -344,57 +343,99 @@
 .formulair {
   background-color: #a00531;
   width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
+.formulair h3 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.formulair form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulair input {
+  width: 607px;
+  height: 149px;
+  border-radius: 25px;
+  background: #fff;
+  margin-bottom: 20px; /* Add some margin between the input fields */
+}
+
+.formulair ::placeholder {
+  color: #aaa;
+  font-size: 64px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.formulair button {
+  width: 361px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  background: #fff;
+  font-size: 64px;
+  font-weight: 400;
+}
 
 /*---------- end of signin page ------------*/
 
 /*---------- start of footer page ------------*/
 
 .footer {
-    padding: 80px 13% 70px;
-    background-color: #a00531;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 3.5rem;
-  }
-  
-  .footer-content h4 {
-    color: white;
-    margin-bottom: 5px;
-    font-size: 40px;
-  }
-  
-  .footer-content ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-content li {
-    margin-bottom: 5px;
-  }
-  
-  .footer-content li a {
-    display: block;
-    color: #ffffff;
-    font-size: 30px;
-    font-weight: 400;
-    transition: all 0.4s ease;
-    text-decoration: none;
-  }
-  
-  .footer-content li a:hover {
-    transform: translateY(-3px);
-    color: rgb(0, 0, 0);
-  }
-  
-  .footer-content p {
-    color: #ffffff;
-    font-size: 20px;
-  }
-  
-  .logof img {
-    width: 90%;
-  }
-  
-  /*---------- end of footer page ------------*/
+  padding: 80px 13% 70px;
+  background-color: #a00531;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3.5rem;
+}
+
+.footer-content h4 {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content li {
+  margin-bottom: 5px;
+}
+
+.footer-content li a {
+  display: block;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+
+.footer-content li a:hover {
+  transform: translateY(-3px);
+  color: rgb(0, 0, 0);
+}
+
+.footer-content p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.logof img {
+  width: 90%;
+}
+
+/*---------- end of footer page ------------*/
