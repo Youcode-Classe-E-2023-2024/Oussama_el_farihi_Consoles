@@ -126,6 +126,33 @@
   max-width: 100%;
 }
 
+.auto-slider {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.auto-slider img {
+  max-width: 100%;
+  display: block;
+  animation: fade 2s infinite;
+}
+
+.auto-slider h2 {
+  color: white;
+  font-size: 35px;
+  margin: 0;
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 0;
+  }
+  20%, 80% {
+    opacity: 1;
+  }
+}
+
 .card-content1 h2 {
   color: white;
   font-size: 35px;
@@ -337,7 +364,7 @@
 }
 
 .signin img {
-  width: 450px;
+  width: 350px;
 }
 
 .formulair {
@@ -367,12 +394,11 @@
   width: 607px;
   height: 149px;
   border-radius: 25px;
-  background: #fff;
-  margin-bottom: 20px; /* Add some margin between the input fields */
+  margin-bottom: 20px;
+  font-size: 64px;
 }
 
 .formulair ::placeholder {
-  color: #aaa;
   font-size: 64px;
   font-weight: 400;
   text-align: center;
@@ -386,7 +412,14 @@
   background: #fff;
   font-size: 64px;
   font-weight: 400;
+  transition: background 0.3s, color 0.3s, transform 0.2s;
 }
+
+.formulair button:hover {
+    background: #000000;
+    color: #fff;
+    transform: scale(1.1);
+  }
 
 /*---------- end of signin page ------------*/
 
