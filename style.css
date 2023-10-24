@@ -401,35 +401,72 @@
 }
 
 .blog-c img {
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   margin-bottom: 20px;
 }
 
 .blog-c h1 {
-  font-size: 75px;
-  font-weight: 400;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .blog-c h4 {
   color: #aaa;
   text-align: left;
-  font-size: 36px;
+  font-size: 16px;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
 .blog-c p {
   color: #aaa;
-  font-size: 32px;
+  font-size: 16px;
   font-weight: 400;
 }
 
 .blog-d h2 {
-  font-size: 64px;
-  font-weight: 400;
+  font-size: 65px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.social-links {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ctn-s {
+  display: flex;
+  flex-direction: row; /* Change this from 'column' to 'row' */
+  padding: 10px;
+  width: 250px;
+  background-color: #a00531;
+  margin: 10px;
+  align-items: center; /* Add this to vertically align items */
+}
+
+.ctn-s img {
+  width: 50px;
+  height: 50px;
+}
+
+.ctn-s h6 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  margin-left: 10px; /* Add margin to separate the image and text */
+}
+
+.social-links a {
+  text-decoration: none;
 }
 
 /*---------- end of blog page ------------*/
+
+
 
 /*---------- start of signin page ------------*/
 .l {
