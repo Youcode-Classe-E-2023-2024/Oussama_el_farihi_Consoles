@@ -434,39 +434,43 @@
 /*---------- start of signin page ------------*/
 .l {
   padding: 80px;
+  background-image: url("img/mario\ bg.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
 
 .l h1 {
-  font-size: 70px;
-  font-weight: 400;
-  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
 }
 
 .signin {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   padding: 80px;
-}
-
-.signin img {
-  width: 350px;
 }
 
 .formulair {
   background-color: #a00531;
-  width: 700px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .formulair h3 {
   color: #fff;
-  font-size: 80px;
-  font-weight: 400;
+  font-size: 36px;
+  font-weight: 700;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .formulair form {
@@ -476,35 +480,58 @@
 }
 
 .formulair input {
-  width: 607px;
-  height: 149px;
-  border-radius: 25px;
-  margin-bottom: 20px;
-  font-size: 64px;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-size: 18px;
+  background-color: #f5f5f5;
+  color: #333;
+  transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-.formulair ::placeholder {
-  font-size: 64px;
-  font-weight: 400;
-  text-align: center;
+.formulair input::placeholder {
+  font-size: 18px;
+  color: #999;
+}
+
+.formulair input:focus {
+  background-color: #e0e0e0;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
 .formulair button {
-  width: 361px;
-  height: 120px;
-  flex-shrink: 0;
-  border-radius: 60px;
-  background: #fff;
-  font-size: 64px;
-  font-weight: 400;
-  transition: background 0.3s, color 0.3s, transform 0.2s;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #ff5c5c;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .formulair button:hover {
-    background: #000000;
-    color: #fff;
-    transform: scale(1.1);
+  background-color: #ff3333;
+}
+
+/* Center the form on smaller screens */
+@media (max-width: 480px) {
+  .formulair {
+    width: 90%;
+    min-width: 300px;
   }
+}
+
+/* Additional styling for input fields in focus */
+.formulair input:focus {
+  background-color: #e0e0e0;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 /*---------- end of signin page ------------*/
 
