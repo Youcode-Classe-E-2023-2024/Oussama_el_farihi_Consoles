@@ -468,18 +468,30 @@
 
 @media (max-width: 740px) {
   .ctn-s {
-    width: 70px;
+    width: 35px;
+    margin-bottom: -5px;
   }
 
   .ctn-s h6 {
     display: none;
   }
 
-  .blog-d h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 20px;
+  .ctn-s img {
+    width: 15px;
+    height: 15px;
   }
+
+  .blog-d{
+    width: 15%;
+  }
+
+  .blog-d h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 71px;
+    margin-bottom: -5px;
+  }
+  
 }
 
 /*---------- end of blog page ------------*/
