@@ -280,7 +280,7 @@
 
 .card-content2 {
   width: 400px;
-  height: 385px;
+  height: auto;
   background-color: #a00531;
   margin: 10px;
   text-align: center;
@@ -294,13 +294,27 @@
 }
 
 .card-content2 img {
-  width: 354px;
-  height: 235px;
+  width: 100%;
+  height: auto;
 }
 
 .card-content2 h2 {
   font-size: 30px;
 }
+
+@media screen and (max-width: 740px) {
+  .card-content2 {
+    width: 300px;
+    height: auto;
+    background-color: #a00531;
+    margin: 10px;
+    text-align: center;
+    padding: 0.5rem 1%;
+    color: white;
+    margin-bottom: 50px;
+  }
+}
+
 
 /*---------- end of index page ------------*/
 
@@ -444,7 +458,7 @@
   display: flex;
   flex-direction: row; /* Change this from 'column' to 'row' */
   padding: 10px;
-  width: 250px;
+  width: 300px;
   background-color: #a00531;
   margin: 10px;
   align-items: center; /* Add this to vertically align items */
